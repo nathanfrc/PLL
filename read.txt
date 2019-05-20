@@ -1,0 +1,35 @@
+1º Passo
+    =>Criar um banco de dados com nome PLL2
+
+2º Passo 
+    =>trocar os parametros de conexão na pasta src/GerarDatabase.php
+
+        self::$conn = new PDO('mysql:host=localhost;port=3306;dbname=PLL2','sabesp','nathan040993');
+
+
+3º Passo
+    => Caso queira que o banco gere mais rápido entrar na src/GerarDatabase.php
+
+        public $qt_clientes_total = 10000; //quantidade de clientes gerados
+        public $qt_vendas_total = 30000;  //quantidade de vendas geradas
+
+
+4º Passo 
+    => Pagina  default irar te levar para o login 
+
+        clicar em gerar banco encima do login 
+
+        o sistema irá gerar um usuario a mais para fazer apenas login validando no banco de dados 
+
+        CPF = 123456789
+        Senha = 123456
+
+Versão usada de  PHP 7.2.11 
+
+qualquer dúvida estou disponivel
+
+nathan.frc@hotmail.com 
+(11) 99639-6923
+
+
+
